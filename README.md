@@ -1,4 +1,5 @@
 # Solution-of-Traveling-Salesman-Problem
+
 ## Definition
 The Traveling Salesman Problem (TSP) can be defined as follows:
 Suppose a salesperson needs to travel from one city to all the other cities exactly once to sell products, and then return to the starting city. The objective is to complete this journey while covering the minimum total distance.
@@ -13,6 +14,7 @@ A classical approach that computes all possible permutations of cities and selec
 A quantum-classical hybrid approach using Qiskit's VQE algorithm. The TSP is represented as a combinatorial optimization problem, where the solution is obtained by minimizing the corresponding Hamiltonian. This method leverages quantum circuits combined with classical optimization to find approximate solutions more efficiently for larger problems.
 
 ## How It Works
+
 ### Brute Force
 The brute force method iterates over all possible permutations of city paths, calculating and comparing the total distance for each path. It then selects the shortest one. Although this method guarantees the optimal solution, it becomes computationally expensive as the number of cities increases.
 

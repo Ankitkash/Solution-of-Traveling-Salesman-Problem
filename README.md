@@ -1,5 +1,4 @@
 # Solution-of-Traveling-Salesman-Problem
-
 ## Definition
 The Traveling Salesman Problem (TSP) can be defined as follows:
 Suppose a salesperson needs to travel from one city to all the other cities exactly once to sell products, and then return to the starting city. The objective is to complete this journey while covering the minimum total distance.
